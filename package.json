@@ -1,0 +1,13 @@
+{
+      "name": "sql-analyzer",
+      "version": "0.1.0",
+      "description": "SQL Analysis and Reporting Pipeline",
+      "scripts": {
+        "dev": "R --vanilla",
+        "build": "R CMD INSTALL . --build",
+        "test": "R -e 'library(testthat); expect(1)"
+      },
+      "dependencies": {
+        "testthat": "~2.0.0"
+      }
+    }
